@@ -1,0 +1,34 @@
+{
+  "name": "podio-api-test",
+  "version": "1.0.0",
+  "description": "Podio API test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuadajip/podio-api-test.git"
+  },
+  "keywords": [
+    "api",
+    "podio"
+  ],
+  "author": "fuadajip",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fuadajip/podio-api-test/issues"
+  },
+  "homepage": "https://github.com/fuadajip/podio-api-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "loadash": "^1.0.0",
+    "morgan": "^1.9.0",
+    "podio-js": "^1.6.1"
+  }
+}
